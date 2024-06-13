@@ -25,7 +25,7 @@ const App = () => (
     </div>
 
     {/* Others */}
-    <div className="px-6 sm:px-16 flex justify-center items-start">
+    <div className="px-0 sm:px-16 flex justify-center items-start">
       <div className="w-full xl:max-w-[1640px]">
         <Experience />
         <ChooseUs />

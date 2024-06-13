@@ -2,7 +2,7 @@ const Hero = () => {
   return (
     <section id="home" className="relative w-full h-full py-0 2xl:py-6 mx-auto">
       {/* overlay */}
-      <div className="absolute w-full h-full text-primary max-h-[800px] bg-black/60 flex flex-col justify-center">
+      <div className="absolute w-full h-full text-primary max-h-[800px] bg-black/60 flex flex-col justify-center pl-2 sm:pl-8">
         <h1 className="px-2 text-5xl sm:text-6xl md:text-8xl font-semibold">
           Solar <br />
           <span className="text-tertiary text-5xl sm:text-6xl md:text-8xl">Solutions</span> for <br /> a

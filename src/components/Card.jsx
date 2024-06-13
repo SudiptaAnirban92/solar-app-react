@@ -12,8 +12,8 @@ const Card = () => {
             key={index}
             className="absolute w-full h-full text-primary p-6 bg-black/40 rounded-xl"
           >
-            <h2 className="text-lg font-semibold mb-6">{ex.title}</h2>
-            <p className="text-xs">{ex.text}</p>
+            <h2 className="text-xl font-semibold mb-6">{ex.title}</h2>
+            <p className="text-sm">{ex.text}</p>
           </div>
           <img src={ex.image} alt="experience 1" className="w-full h-full object-cover rounded-xl"/>
         </div>
