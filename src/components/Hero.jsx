@@ -7,7 +7,7 @@ const Hero = () => {
           Solar <br />
           <span className="text-tertiary text-5xl sm:text-6xl md:text-8xl">Solutions</span> for <br /> a
           Sustainable <br />
-          Tomorrow <span className="text-tertiary">.</span>
+          Tomorrow<span className="text-tertiary">.</span>
         </h1>
       </div>
       <img

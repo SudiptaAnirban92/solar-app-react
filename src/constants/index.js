@@ -96,7 +96,7 @@ export const chooseUs = [
   },
 ];
 
-export const services = [
+export const services1 = [
   {
     id: "service-1",
     icon: service1,
@@ -109,6 +109,9 @@ export const services = [
     title: "Deals and Promotions",
     text: "We pride ourselves on securing great deals and promotions for our customers.",
   },
+];
+
+export const services2 = [
   {
     id: "service-3",
     icon: service3,

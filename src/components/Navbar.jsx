@@ -14,7 +14,7 @@ const Navbar = () => {
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`text-primary uppercase text-lg cursor-pointer ${
+            className={`text-primary uppercase text-lg cursor-pointer hover:underline underline-offset-8 hover:text-tertiary ${
               index === navLinks.length - 1 ? `mr-0` : `mr-6 xl:mr-14`
             }`}
           >
@@ -26,7 +26,7 @@ const Navbar = () => {
       {/* Mobile menu icon */}
       <div
         onClick={() => setToggle((prev) => !prev)}
-        className="flex lg:hidden flex-1 justify-end items-center text-primary"
+        className="flex lg:hidden flex-1 justify-end items-center text-primary active:text-tertiary"
       >
         {toggle ? <AiOutlineClose size={40} /> : <TbMenuDeep size={40} />}
       </div>
@@ -41,7 +41,7 @@ const Navbar = () => {
           {navLinks.map((nav, index) => (
             <li
               key={nav.id}
-              className={`text-primary uppercase text-lg cursor-pointer ${
+              className={`text-primary active:text-secondary uppercase text-lg cursor-pointer ${
                 index === navLinks.length - 1 ? `mb-0` : `mb-4`
               }`}
             >

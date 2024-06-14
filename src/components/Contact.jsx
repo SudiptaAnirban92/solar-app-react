@@ -16,7 +16,7 @@ const Contact = () => {
             and more affordable for you.
           </p>
           <div>
-            <button className="my-2 py-3 px-6 rounded-full mr-4 lg:mr-6 text-secondary bg-primary font-semibold">Read More</button>
+            <button className="my-2 py-3 px-4 lg:px-6 rounded-full mr-4 lg:mr-6 text-secondary bg-primary font-semibold">Read More</button>
             <button className="my-2 py-3 px-6 rounded-full bg-secondary font-semibold">Contact Us Today</button>
           </div>
         </div>
