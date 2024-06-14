@@ -22,7 +22,7 @@ const Contact = () => {
         </div>
 
         <div className="static lg:relative w-full md:w-[50%] flex flex-wrap justify-center items-center right-40">
-          <img src={contact1} alt="contact 1" />
+          <img src={contact1} alt="contact 1" className="hidden xl:block" />
           <img src={contact2} alt="contact 2" className="static lg:absolute right-1"/>
         </div>
       </div>

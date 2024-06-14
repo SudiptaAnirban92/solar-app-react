@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { logo } from "../assets";
 import { navLinks } from "../constants";
 import { TbMenuDeep } from "react-icons/tb";
