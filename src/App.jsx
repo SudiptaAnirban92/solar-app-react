@@ -32,8 +32,10 @@ const App = () => (
         <ChooseUs />
         <Contact />
         <Services />
-        <Footer />
       </div>
+    </div>
+    <div className="px-0">
+      <Footer />
     </div>
   </div>
 );

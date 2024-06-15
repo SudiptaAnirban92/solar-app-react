@@ -125,3 +125,30 @@ export const services2 = [
     text: "We understand that navigating the solar and cable landscape can be overwhelming.",
   },
 ];
+
+export const services = [
+  {
+    id: "service-1",
+    icon: service1,
+    title: "Solar Solutions",
+    text: "Harness the power of the sun and embrace clean, renewable energy with our solar solutions.",
+  },
+  {
+    id: "service-2",
+    icon: service2,
+    title: "Deals and Promotions",
+    text: "We pride ourselves on securing great deals and promotions for our customers.",
+  },
+  {
+    id: "service-3",
+    icon: service3,
+    title: "Cable Services",
+    text: "Stay connected with high-quality cable services that deliver reliable and fast internet, television",
+  },
+  {
+    id: "service-4",
+    icon: service4,
+    title: "Consultation and Support",
+    text: "We understand that navigating the solar and cable landscape can be overwhelming.",
+  },
+];
