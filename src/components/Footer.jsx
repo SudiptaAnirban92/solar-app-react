@@ -19,7 +19,7 @@ const Footer = () => {
       <hr className="border-b-[0.05rem] border-gray-700" />
       <div className="max-w-[1420px] mx-auto px-0 lg:px-10 py-14 grid grid-cols-7 font-extralight">
         {/* logo */}
-        <div className="p-10 col-span-7 sm:col-span-4 lg:col-span-3 lg:border-r-[0.05rem] border-b-[0.05rem] lg:border-b-0 border-gray-700 flex flex-col">
+        <div className="py-6 lg:py-10 px-12 col-span-7 sm:col-span-4 lg:col-span-3 lg:border-r-[0.05rem] border-b-[0.05rem] lg:border-b-0 border-gray-700 flex flex-col">
           <img
             src={logo}
             alt="footer logo"
@@ -34,7 +34,7 @@ const Footer = () => {
           </p>
         </div>
         {/* quick links */}
-        <div className="py-10 px-12 col-span-7 sm:col-span-3 lg:col-span-1 lg:border-r-[0.05rem] border-b-[0.05rem] lg:border-b-0  border-gray-700">
+        <div className="py-6 lg:py-10 px-12 col-span-7 sm:col-span-3 lg:col-span-1 lg:border-r-[0.05rem] border-b-[0.05rem] lg:border-b-0  border-gray-700">
           <p className="font-normal mb-8">Quick Links</p>
           <ul className="list-none">
             {navLinks.map((nav, index) => (
@@ -50,7 +50,7 @@ const Footer = () => {
           </ul>
         </div>
         {/* services */}
-        <div className="p-10 col-span-7 sm:col-span-4 lg:col-span-1 lg:border-r-[0.05rem] border-b-[0.05rem] sm:border-b-0 border-gray-700">
+        <div className="py-6 lg:py-10 px-12 col-span-7 sm:col-span-4 lg:col-span-1 lg:border-r-[0.05rem] border-b-[0.05rem] sm:border-b-0 border-gray-700">
           <p className="font-normal mb-8">Services</p>
           <ul>
             {services.map((service, index) => (
@@ -66,7 +66,7 @@ const Footer = () => {
           </ul>
         </div>
         {/* contacts */}
-        <div className="p-10 col-span-7 sm:col-span-3 lg:col-span-2">
+        <div className="py-6 lg:py-10  px-12 col-span-7 sm:col-span-3 lg:col-span-2">
           <p className="font-normal mb-8">Contact</p>
           <div className="flex items-center mb-4">
             <img src={phone} alt="phone" />
